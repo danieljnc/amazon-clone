@@ -30,7 +30,7 @@ const App = () => {
   }, [dispatch]);
 
   return (
-    <Router>
+    <Router basename='/amazon-clone'>
       <div className="App">       
           <Routes>
               <Route exact path='/' element={ <Home />} />      
